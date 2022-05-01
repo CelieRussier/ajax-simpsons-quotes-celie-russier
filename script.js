@@ -14,6 +14,7 @@ function fetchSimpsonsQuotesJSON() {
         const simpsonsHtml = `
           <p><strong>${simpsons.quote}</strong></p>
           <img src="${simpsons.image}" />
+          <p><strong>${simpsons.character}</strong></p>
         `;
         document.querySelector('#simpsons').innerHTML = simpsonsHtml;
       });
